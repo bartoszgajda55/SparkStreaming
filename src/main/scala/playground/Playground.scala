@@ -20,7 +20,7 @@ object Playground extends App {
     */
   val spark = SparkSession.builder()
     .appName("Spark Essentials Playground App")
-    .master("local[2]")
+    .master("spark://localhost:7077")
     .getOrCreate()
 
   /**
