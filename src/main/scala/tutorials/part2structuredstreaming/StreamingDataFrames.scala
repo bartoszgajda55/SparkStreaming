@@ -60,7 +60,7 @@ object StreamingDataFrames {
       .outputMode("append")
       //.trigger(Trigger.ProcessingTime(2.seconds)) // Every two seconds, run the query
       //.trigger(Trigger.Once()) // Single batch
-      .trigger(Trigger.Continuous()) // Every 2 seconds, regardless of data flow
+      .trigger(Trigger.Continuous(2.seconds)) // Every 2 seconds, regardless of data flow
       .start()
       .awaitTermination()
   }
