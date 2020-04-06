@@ -1,4 +1,4 @@
-package part3lowlevel
+package solutions.part3lowlevel
 
 import java.io.{File, FileWriter}
 import java.sql.Date

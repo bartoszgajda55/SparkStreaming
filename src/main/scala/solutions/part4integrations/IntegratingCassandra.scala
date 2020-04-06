@@ -1,4 +1,4 @@
-package part4integrations
+package solutions.part4integrations
 
 import com.datastax.spark.connector.cql.CassandraConnector
 import org.apache.spark.sql.{Dataset, ForeachWriter, SaveMode, SparkSession}

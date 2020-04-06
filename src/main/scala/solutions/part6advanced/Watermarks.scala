@@ -1,4 +1,4 @@
-package part6advanced
+package solutions.part6advanced
 
 import java.io.PrintStream
 import java.net.ServerSocket

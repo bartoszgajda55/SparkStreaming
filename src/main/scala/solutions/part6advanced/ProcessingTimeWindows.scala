@@ -1,4 +1,4 @@
-package part6advanced
+package solutions.part6advanced
 
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._

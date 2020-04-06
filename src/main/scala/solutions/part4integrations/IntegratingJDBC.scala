@@ -1,4 +1,4 @@
-package part4integrations
+package solutions.part4integrations
 
 import org.apache.spark.sql.{Dataset, SparkSession}
 import common._
