@@ -10,6 +10,7 @@ object StreamingDataFrames {
   val spark = SparkSession.builder()
     .appName("Streaming Data Frames")
     .master("spark://localhost:7077")
+    .config("spark.driver.bindAddress", "localhost")
     .getOrCreate()
 
   def readFromSocket() = {
