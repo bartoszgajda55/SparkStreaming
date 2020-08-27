@@ -1,4 +1,4 @@
-package solutions.part6advanced
+package part6advanced
 
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.types._

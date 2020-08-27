@@ -1,4 +1,4 @@
-package solutions.part4integrations
+package part4integrations
 
 import com.datastax.spark.connector.cql.CassandraConnector
 import org.apache.spark.sql.{Dataset, ForeachWriter, SaveMode, SparkSession}
@@ -11,6 +11,8 @@ object IntegratingCassandra {
   val spark = SparkSession.builder()
     .appName("Integrating Cassandra")
     .master("local[2]")
+    .config("spark.cassandra.connection.host", "localhost")
+    .config("spark.cassandra.connection.port", "9042")
     .getOrCreate()
 
   import spark.implicits._

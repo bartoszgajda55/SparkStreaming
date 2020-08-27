@@ -1,4 +1,4 @@
-package solutions.part3lowlevel
+package part3lowlevel
 
 import java.io.File
 

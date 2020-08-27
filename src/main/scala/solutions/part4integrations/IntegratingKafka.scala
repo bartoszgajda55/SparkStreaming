@@ -1,4 +1,4 @@
-package solutions.part4integrations
+package part4integrations
 
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions._

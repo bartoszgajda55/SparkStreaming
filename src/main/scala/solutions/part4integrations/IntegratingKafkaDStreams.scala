@@ -1,4 +1,4 @@
-package solutions.part4integrations
+package part4integrations
 
 import java.util
 

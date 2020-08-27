@@ -1,4 +1,4 @@
-package solutions.part1recap
+package part1recap
 
 import scala.concurrent.Future
 import scala.util.{Failure, Success}

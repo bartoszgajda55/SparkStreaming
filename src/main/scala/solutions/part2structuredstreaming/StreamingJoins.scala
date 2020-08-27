@@ -1,4 +1,4 @@
-package solutions.part2structuredstreaming
+package part2structuredstreaming
 
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
